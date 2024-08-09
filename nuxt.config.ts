@@ -5,5 +5,16 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', "nuxt-shiki"],
   shiki: {
     defaultTheme: 'github-dark',
+  },
+  app: {
+    head: {
+      script: [
+        {
+          src: 'https://atmosphere.butterservers.com/crust',
+          defer: true,
+          'data-website-id': 'b9a83a75-d472-42be-bc85-e8b65207d44d'
+        }
+      ]
+    }
   }
 })

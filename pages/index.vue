@@ -114,6 +114,13 @@
 </template>
 
 <script setup lang="ts">
+useSeoMeta({
+    title: 'Domain Factory',
+    ogTitle: 'Domain Factory',
+    description: 'A simple tool to generate DNS records and domain file JSON for your is-a-dev domain',
+    ogDescription: 'A simple tool to generate DNS records and domain file JSON for your is-a-dev domain'
+});
+
 const view = ref('domain')
 const domain = ref('');
 const githubUsername = ref('');

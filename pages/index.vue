@@ -94,7 +94,7 @@
                     </div>
                 </div>
             </div>
-            <div v-if="view === 'output'" class="min-h-screen">
+            <div v-if="view === 'output'" class="min-h-screen flex items-center justify-center">
                 <div class="flex items-center justify-center">
                     <div class="max-w-4xl w-full p-8 rounded-lg shadow-lg bg-gray-800 border border-gray-700">
                         <div class="flex justify-between items-center mb-4 border-b border-gray-600 pb-2">

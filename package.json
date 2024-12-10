@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.12.0",
-    "nuxt": "^3.12.3",
+    "nuxt": "^3.12.4",
     "nuxt-shiki": "^0.3.0",
     "vue": "latest"
   }
